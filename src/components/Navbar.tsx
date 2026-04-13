@@ -5,7 +5,7 @@ import logo from "@/assets/logo.png";
 const Navbar = () => {
   const { openSupport } = useSupportSheet();
   return (
-    <nav className="sticky top-0 z-50 py-1.5 md:py-2">
+    <nav className="z-50 py-1.5 md:sticky md:top-0 md:py-2">
       <div className="container md:bg-white/15 md:backdrop-blur-md md:border md:border-white/20 md:rounded-xl md:shadow-sm">
       <div className="flex items-center justify-center md:justify-between h-16 md:h-[72px]">
         <div className="flex items-center shrink-0 gap-2">
