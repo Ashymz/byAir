@@ -6,8 +6,8 @@ const Navbar = () => {
   const { openSupport } = useSupportSheet();
   return (
     <nav className="sticky top-0 z-50 py-1.5 md:py-2">
-      <div className="container bg-white/15 backdrop-blur-md border border-white/20 rounded-xl shadow-sm">
-      <div className="flex items-center justify-between h-16 md:h-[72px]">
+      <div className="container md:bg-white/15 md:backdrop-blur-md md:border md:border-white/20 md:rounded-xl md:shadow-sm">
+      <div className="flex items-center justify-center md:justify-between h-16 md:h-[72px]">
         <div className="flex items-center shrink-0 gap-2">
           <img src={logo} alt="ByAir logo" className="block h-10 md:h-12 w-auto max-w-none object-contain" />
         </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
           type="button"
           variant="nav"
           size="sm"
-          className="h-11 px-[22px] rounded-[6px] text-sm font-medium bg-[#396FFF] hover:bg-[#396FFF]/90"
+          className="hidden md:inline-flex h-11 px-[22px] rounded-[6px] text-sm font-medium bg-[#396FFF] hover:bg-[#396FFF]/90"
           onClick={openSupport}
         >
           Contact us
